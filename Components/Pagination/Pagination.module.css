@@ -1,0 +1,23 @@
+.Pagination {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.Pagination li {
+    list-style: none;
+    margin-left: 10px;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.Pagination li:focus {
+    background-color: yellow;
+}

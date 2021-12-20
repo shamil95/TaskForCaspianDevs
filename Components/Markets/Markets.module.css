@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Baloo+Bhaijaan+2:wght@500&family=Mukta:wght@300&family=Noto+Sans:wght@400;700&family=Nunito+Sans&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+
+.Markets {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: var(--market-background);
+    color: var(---market-color);
+}
+
+.Filter {
+    padding-left: 50px;
+}
+
+.Filter select {
+    border: none;
+    outline: none;
+    width: 140px;
+    height: 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.MarketsHome {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col1 {
+    text-align: center;
+    margin-right: 10px;
+    width: 170px;
+    height: 30px;
+    font-size: 15px;
+    color: var(--market-col-color);
+    background-color: var(--market-col-background);
+}
+
+.Leauge {
+    color: var(--market-col-color);
+}
+
+.Leauge span {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.Scores span {
+    margin-right: 8px;
+    font-weight: bold;
+    color: var(--market-color);
+}

@@ -1,0 +1,23 @@
+:root {
+    --navbar-background: #fff;
+    --navbar-color: rgba(77, 79, 85, 0.5);
+    --market-background: #d7d9dd;
+    --market-color: rgba(77, 79, 85, 0.5);
+    --market-col-background: #Fff;
+    --market-col-color: black;
+    --table-background-color: #fff;
+    --table-col-background-color: #d7d9dd;
+    --table-color: black;
+}
+
+.dark-theme {
+    --navbar-background: #131418;
+    --navbar-color: #fff;
+    --market-background: #21252e;
+    --market-color: rgba(77, 79, 85, 0.5);
+    --market-col-background: #131418;
+    --market-col-color: #fff;
+    --table-background-color: #131418;
+    --table-col-background-color: #21252e;
+    --table-color: #fff;
+}
